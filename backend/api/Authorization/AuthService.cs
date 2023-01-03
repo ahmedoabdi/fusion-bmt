@@ -1,11 +1,6 @@
 using System;
 using Microsoft.AspNetCore.Http;
 
-using api.Services;
-using api.Models;
-using System.Collections.Generic;
-using System.Linq;
-
 namespace api.Authorization
 {
     public interface IAuthService

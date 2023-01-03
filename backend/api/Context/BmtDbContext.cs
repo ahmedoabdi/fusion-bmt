@@ -1,5 +1,3 @@
-using Microsoft.EntityFrameworkCore;
-using api.Models;
 using Action = api.Models.Action;
 
 namespace api.Context

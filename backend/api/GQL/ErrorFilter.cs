@@ -1,5 +1,4 @@
 using HotChocolate;
-using Microsoft.Extensions.Logging;
 
 namespace api.GQL
 {

@@ -1,27 +1,9 @@
 using System;
-using System.Collections.Generic;
-
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Rewrite;
-using Microsoft.Data.Sqlite;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using Microsoft.Identity.Web;
-using Microsoft.OpenApi.Models;
-
 using HotChocolate;
-
-using api.Context;
-using api.Services;
-using api.GQL;
-using api.Swagger;
-using api.Authorization;
 
 
 namespace api

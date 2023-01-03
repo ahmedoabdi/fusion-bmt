@@ -1,9 +1,3 @@
-using System.Linq;
-using System.Collections.Generic;
-
-using api.Context;
-using api.Models;
-
 namespace api.Services
 {
     public class ProjectCategoryService

@@ -3,13 +3,14 @@ using System.Threading.Tasks;
 using Xunit;
 
 using api;
+using Microsoft.VisualStudio.TestPlatform.TestHost;
 
 namespace tests
 {
     [Collection("Database collection")]
     public class ComponentTest
     {
-        private readonly WebApplicationFactory<Startup> factory = new WebApplicationFactory<Startup>();
+        private readonly WebApplicationFactory<Program> factory = new WebApplicationFactory<Program>();
         DatabaseFixture fixture;
 
         public ComponentTest(DatabaseFixture fixture)

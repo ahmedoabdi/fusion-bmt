@@ -1,10 +1,4 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using Microsoft.EntityFrameworkCore;
-
-using api.Context;
-using api.Models;
 
 namespace api.Services
 {

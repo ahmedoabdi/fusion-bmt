@@ -1,10 +1,3 @@
-using HotChocolate.Data;
-using System.Linq;
-using Microsoft.Extensions.Logging;
-
-using api.Models;
-using api.Services;
-
 namespace api.GQL
 {
     public class GraphQuery

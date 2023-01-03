@@ -1,5 +1,3 @@
-using api.Models;
-
 namespace api.Services
 {
     public static class ServiceUtil
